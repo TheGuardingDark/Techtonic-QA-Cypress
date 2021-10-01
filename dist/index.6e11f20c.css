@@ -1,0 +1,102 @@
+.nav ul, .header {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fefefe;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+body button {
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  width: 150px;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.header {
+  align-items: center;
+  background-color: #333;
+  color: #fefefe;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+.header > a {
+  color: #fefefe;
+  text-decoration: none;
+}
+.header h1 {
+  margin: 1rem 0;
+}
+.header span {
+  padding: 0 1rem;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+.nav li {
+  padding-left: 1.5rem;
+}
+.nav li:first-child {
+  padding-left: 0;
+}
+.nav a {
+  color: #fefefe;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: lightgrey;
+}
+.nav a.active {
+  color: #009900;
+  font-style: italic;
+}
+
+.page {
+  flex: 1;
+  padding: 0 1.5rem 1rem;
+}
+.page h2 {
+  color: #009900;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.page h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+}
+.page img {
+  display: block;
+  margin: 0 auto;
+}
+.page button {
+  margin-left: 1rem;
+  width: auto;
+}
+
+.footer {
+  background-color: #333;
+  color: #fefefe;
+  padding: 1rem 0;
+  text-align: center;
+}
+/*# sourceMappingURL=index.6e11f20c.css.map */
